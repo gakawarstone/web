@@ -8,7 +8,7 @@
 }
 
 .first-row{
-  height: 500px;
+  height: 450px;
 }
 
 .first-row-left-column{
@@ -19,4 +19,19 @@
 .first-row-right-column{
   background-color: darksalmon;
   padding-left: 15;
+}
+
+.header{
+  background-color: none;
+}
+
+.title{
+  color: darkorange;
+  background-color: bisque;
+  height: 100px;
+}
+
+h1{
+  font-size: 100px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
 }
