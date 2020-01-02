@@ -1,0 +1,28 @@
+body{
+  width: 70%;
+  align-items: center;
+  padding-left: 15%;
+}
+
+h1, h2, h3{
+  font-family: sans-serif;
+  padding-top: -5px;
+}
+
+h1{
+  font-size: 32px;
+}
+
+table, th, td, tr{
+  border-style: solid;
+  border-color: black;
+}
+
+img{
+  float: right;
+  width: 25%;
+}
+
+.text-1{
+  margin-bottom: 65px;
+}
