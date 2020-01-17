@@ -1,56 +1,20 @@
 .header{
   position: fixed;
-  height: 64px;
   width: 100%;
   background-color: #007765;
 }
 
 body{
   height: 1200px;
-}
-
-.logo{
-  padding-top: 9px;
-}
-
-.links{
-  padding-top: 17px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-.links li{
-  display: inline;
+  background-color: black;
 }
 
 .links a{
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 28px;
   text-decoration: none;
-  color: #FFFFFF;
-}
-
-.links a:link{
-  text-decoration: none;
-}
-
-.links a:hover{
-  color: ghostwhite;
-}
-
-.jumbotron{
-  height: 403px;
-  background: url(../source/img/jumbotron.png);
-}
-
-h1{
-  text-align: center;
+  color: whitesmoke;
 }
