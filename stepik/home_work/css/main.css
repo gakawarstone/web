@@ -16,5 +16,14 @@ body{
   font-size: 28px;
   line-height: 28px;
   text-decoration: none;
-  color: whitesmoke;
+  color: whitesmoke!important;
+}
+
+.links a:hover{
+  color: rgba(255,255,255,.5);
+}
+
+.links ul{
+  width: 100%;
+  align: right;
 }
