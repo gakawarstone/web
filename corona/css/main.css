@@ -1,0 +1,49 @@
+.home {
+  background-image: url(../source/img/home.jpg);
+}
+
+h1{
+  font-size: 100px;
+  padding-top: 200px;
+  color: aqua;
+  text-align: center;
+  font-family: fantasy;
+}
+
+.title{
+  color: #FFFF99;
+  font-size: 25px;
+  padding-left: 50px;
+  padding-right: 20px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.more-info{
+  color: whitesmoke;
+  font-size: 50px;
+  border-radius: 15px;
+}
+
+.chuma{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../source/img/chuma.jpg);
+    background-position: center top;
+	  background-size:cover;
+}
+
+.back-1{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../source/img/back-1.jpg);
+  background-position: center top;
+  background-size:cover;
+}
+
+.back-2{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../source/img/back-2.jpg);
+  background-position: center top;
+  background-size:cover;
+}
