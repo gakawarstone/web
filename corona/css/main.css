@@ -43,7 +43,14 @@ h1{
 .back-2{
   width: 100%;
   height: 100vh;
-  background-image: url(../source/img/back-2.jpg);
   background-position: center top;
   background-size:cover;
+}
+
+.logo{
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+    background-image: url(../source/img/logo-white.xcf);
 }
