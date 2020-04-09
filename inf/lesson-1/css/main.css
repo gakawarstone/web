@@ -1,0 +1,14 @@
+.align-left{
+  color: red;
+  text-align: left;
+}
+
+.align-right{
+  color: green;
+  text-align: right;
+  font-style: italic;
+}
+
+h1, h2{
+  text-align: center;
+}
