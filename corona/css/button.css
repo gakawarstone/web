@@ -1,0 +1,121 @@
+a.fciA {
+  margin: 80px auto;
+  font-family:arial;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -1px;
+  text-decoration: none;
+  text-align:center;
+  display:block;
+  width:300px;
+  color: #888888;
+  position: relative;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+a.fciA:hover {
+  color: #444444;
+  background:rgba(0,0,0,0.1);
+}
+a.fciA:after {
+  left: -40px;
+  -webkit-transition-property: left, opacity, top;
+  -moz-transition-property: left, opacity, top;
+  -o-transition-property: left, opacity, top;
+  transition-property: left, opacity, top;
+  -webkit-transition-duration: .2s, .2s, .2s;
+  -moz-transition-duration: .2s, .2s, .2s;
+  -o-transition-duration: .2s, .2s, .2s;
+  transition-duration: .2s, .2s, .2s;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  position: absolute;
+  border-left: 10px solid #444444;
+  border-top: 10px solid #444444;
+  top: -44px;
+  opacity: 0;
+}
+a.fciA:hover:after {
+  left: -20px;
+  top: -24px;
+  opacity: 1;
+}
+a.fciA:before {
+  right: -40px;
+  -webkit-transition-property: right, opacity, top;
+  -moz-transition-property: right, opacity, top;
+  -o-transition-property: right, opacity, top;
+  transition-property: right, opacity, top;
+  -webkit-transition-duration: .2s, .2s, .2s;
+  -moz-transition-duration: .2s, .2s, .2s;
+  -o-transition-duration: .2s, .2s, .2s;
+  transition-duration: .2s, .2s, .2s;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  position: absolute;
+  border-right: 10px solid #444444;
+  border-top: 10px solid #444444;
+  top: -44px;
+  opacity: 0;
+}
+a.fciA:hover:before {
+  right: -20px;
+  top: -24px;
+  opacity: 1;
+}
+.fciSpan:after {
+  left: -20px;
+  -webkit-transition-property: left, opacity, bottom;
+  -moz-transition-property: left, opacity, bottom;
+  -o-transition-property: left, opacity, bottom;
+  transition-property: left, opacity, bottom;
+  -webkit-transition-duration: .2s, .2s, .2s;
+  -moz-transition-duration: .2s, .2s, .2s;
+  -o-transition-duration: .2s, .2s, .2s;
+  transition-duration: .2s, .2s, .2s;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  position: absolute;
+  border-left: 10px solid #444444;
+  border-bottom: 10px solid #444444;
+  bottom: -48px;
+  opacity: 0;
+}
+.fciSpan:hover:after {
+  left: -20px;
+  bottom: -28px;
+  opacity: 1;
+}
+.fciSpan:before {
+  right: -40px;
+  -webkit-transition-property: right, opacity, bottom;
+  -moz-transition-property: right, opacity, bottom;
+  -o-transition-property: right, opacity, bottom;
+  transition-property: right, opacity, bottom;
+  -webkit-transition-duration: .2s, .2s, .2s;
+  -moz-transition-duration: .2s, .2s, .2s;
+  -o-transition-duration: .2s, .2s, .2s;
+  transition-duration: .2s, .2s, .2s;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  position: absolute;
+  border-right: 10px solid #444444;
+  border-bottom: 10px solid #444444;
+  bottom: -48px;
+  opacity: 0;
+}
+.fciSpan:hover:before {
+  right: -20px;
+  bottom: -28px;
+  opacity: 1;
+}

@@ -18,6 +18,7 @@ body {
     height: 65px;
     position: fixed;
     line-height: 65px;
+    z-index: 999999;
     text-align: center;
 }
 
