@@ -10,6 +10,7 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/nav.js" charset="utf-8"></script>
+  <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/button.css">
   <link rel="stylesheet" href="css/main.css">
@@ -24,7 +25,7 @@
         <ul class="navlinks">
           <li><a href="#map">Map</a></li>
           <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a href="#advices">Advices</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
@@ -36,19 +37,36 @@
     </div>
   </nav>
 
-  <div class="back-3">
+  <section class="back-3">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6"></div>
         <div class="col-md-6 under">
-          <a href="#map" class="fciA navItem"><span class="fciSpan">Next</span></a>
+          <p class="home-screen">Существует только одна форма инфекции,
+                                 которая распространяется быстрее, чем
+                                 вирус. И это - страх.
+          </p>
+          <a href="#map" class="glo">Больше</a>
         </div>
       </div>
     </div>
-  </div>
-
-  <section>
-    <iframe class="back-2" id="map" src="https://coronavirus-monitor.ru/map"></iframe>
   </section>
+
+  <div class="container-fluid block" id="map">
+    <div class="row">
+      <div class="col-md-6 block-map">
+        <h2>Карта</h2>
+        <div class="card">
+          <div class="card-body">
+            <iframe class="map" src="https://coronavirus-monitor.ru/map"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <a href="#map" class="fciA navItem"><span class="fciSpan">Больше</span></a>
+      </div>
+    </div>
+  </div>
+  <section class="notebook" id="advices"></section>
 </body>
 </html>
