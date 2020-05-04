@@ -24,7 +24,7 @@
       <div class="main_list">
         <ul class="navlinks">
           <li><a href="#map">Map</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="#map">News</a></li>
           <li><a href="#advices">Advices</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -62,11 +62,51 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6">
-        <a href="#map" class="fciA navItem"><span class="fciSpan">Больше</span></a>
+      <div class="col-md-6 block-news">
+        <h2>Новости</h2>
+        <div class="card">
+          <div class="card-body">
+            <div id="carouselExampleCaptions" class="carousel slide news" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item news-1 active">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </div>
+                </div>
+                <div class="carousel-item news-2">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+                <div class="carousel-item news-3">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
   <section class="notebook" id="advices"></section>
 </body>
 </html>

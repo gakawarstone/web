@@ -78,9 +78,10 @@ h1, h2{
 .map{
   height: 75vh;
   width: 100%;
+  margin-bottom: -5px;
 }
 
-.block-map{
+.block-map, .block-news{
   padding-top: 65px;
   padding-bottom: 2vh;
 }
@@ -97,6 +98,35 @@ h1, h2{
   width: 100%;
   height: 100vh;
   background-image: url(../source/img/notebook.jpg);
+  background-position: center top;
+  background-size:cover;
+}
+
+.news{
+  height: 75vh;
+  width: 100%;
+}
+
+.news-1{
+  width: 100%;
+  height: 75vh;
+  background-image: url(../source/img/back-1.jpg);
+  background-position: center top;
+  background-size:cover;
+}
+
+.news-2{
+  width: 100%;
+  height: 75vh;
+  background-image: url(../source/img/back-2.jpg);
+  background-position: center top;
+  background-size:cover;
+}
+
+.news-3{
+  width: 100%;
+  height: 75vh;
+  background-image: url(../source/img/back-3.jpg);
   background-position: center top;
   background-size:cover;
 }
