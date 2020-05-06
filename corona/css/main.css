@@ -115,29 +115,17 @@ h1, h2{
 .news-1{
   width: 100%;
   height: 75vh;
-  background-image: url(../source/img/football.jpg);
+  background-image: url(../source/img/football-cb.jpg);
   background-position: center top;
   background-size:cover;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-  filter: gray; /* IE 6-9 */
 }
 
 .news-2{
   width: 100%;
   height: 75vh;
-  background-image: url(../source/img/monalisa.jpg);
+  background-image: url(../source/img/monalisa-cb.jpg);
   background-position: center top;
   background-size:cover;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-  filter: gray; /* IE 6-9 */
 }
 
 .news-3{
@@ -150,6 +138,12 @@ h1, h2{
 
 h5{
   font-size: 70px;
+}
+
+h5 a{
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
 }
 
 .news-1 p,

@@ -13,6 +13,7 @@
   <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/button.css">
+  <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -76,20 +77,19 @@
               <div class="carousel-inner">
                 <div class="carousel-item news-1 active">
                   <div class="carousel-caption">
-                    <h5>First slide label</h5>
-                    <a data-toggle="modal" data-target=".article-1">gdsfgds</a>
+                    <h5><a data-toggle="modal" data-target="#article-1">First slide label</a></h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                   </div>
                 </div>
                 <div class="carousel-item news-2">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
+                    <h5><a data-toggle="modal" data-target="#article-2">Second slide label</a></h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                 </div>
                 <div class="carousel-item news-3">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
+                    <h5><a data-toggle="modal" data-target="#article-3">Third slide label</a></h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                   </div>
                 </div>
@@ -134,10 +134,62 @@
     </div>
   </footer>
 
-  <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
+  <div class="modal fade" id="article-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
       <div class="modal-content">
-        ...
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...1
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="article-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...2
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="article-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...3
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
       </div>
     </div>
   </div>
