@@ -118,6 +118,12 @@ h1, h2{
   background-image: url(../source/img/football.jpg);
   background-position: center top;
   background-size:cover;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
 }
 
 .news-2{
@@ -126,6 +132,12 @@ h1, h2{
   background-image: url(../source/img/monalisa.jpg);
   background-position: center top;
   background-size:cover;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
 }
 
 .news-3{

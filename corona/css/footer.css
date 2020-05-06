@@ -32,5 +32,6 @@ footer {
 #footer ul.social li:hover a i {
 	font-size:50px;
   color: #00E676;
-	margin-top:-20px;
+	margin-top:-50px;
+	margin-bottom:-50px;
 }
