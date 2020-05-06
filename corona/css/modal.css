@@ -1,0 +1,18 @@
+#article-1{
+  z-index: 9999;
+}
+.modal-title{
+  background: black;
+  color: white;
+  text-align: center;
+  flex: auto;
+}
+
+.modal-text{
+  font-size: 17px;
+}
+
+.modal-bottom{
+  background-color: black;
+  color: white;
+}

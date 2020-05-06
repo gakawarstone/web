@@ -138,3 +138,22 @@ a.glo:hover {
 background-position: 0 0;
 color:#00E676;
 }
+
+a.glo-mini{
+ color: white;
+ width:75px;
+ text-decoration:none;
+ text-align:center;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,white 50%,white);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 22px tahoma;
+ border: 1px solid white;
+ cursor: pointer;
+}
+a.glo-mini:hover {
+background-position: 0 0;
+color:black;
+}
