@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="js/bootstrap.min.js"></script>
   <script src="js/popper.min.js"></script>
-  <script src="js/nav.js" charset="utf-8"></script>
+  <script src="js/nav.js"></script>
   <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/button.css">
@@ -23,7 +23,7 @@
       <div class="logo">
         <a href="#">COVID-19</a>
       </div>
-      <div class="main_list">
+      <div id="mainListDiv" class="main_list">
         <ul class="navlinks">
           <li><a href="#map">Map</a></li>
           <li><a href="#map">News</a></li>
@@ -31,11 +31,6 @@
           <li><a href="#footer">Contact</a></li>
         </ul>
       </div>
-      <span class="navTrigger">
-        <i></i>
-        <i></i>
-        <i></i>
-      </span>
     </div>
   </nav>
 
@@ -82,13 +77,13 @@
                   </div>
                 </div>
                 <div class="carousel-item news-2">
-                  <div class="carousel-caption d-none d-md-block">
+                  <div class="carousel-caption d-md-block">
                     <h5><a data-toggle="modal" data-target="#article-2">Second slide label</a></h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                 </div>
                 <div class="carousel-item news-3">
-                  <div class="carousel-caption d-none d-md-block">
+                  <div class="carousel-caption d-md-block">
                     <h5><a data-toggle="modal" data-target="#article-3">Third slide label</a></h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                   </div>

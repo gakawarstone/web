@@ -159,3 +159,71 @@ p.h6{
 .pointer{
   cursor: pointer;
 }
+
+@media screen and (max-width:768px){
+  .block{
+    height: 200vh;
+  }
+
+  .block-map, .block-news{
+    padding-top: 0;
+  }
+
+  .under{
+    padding-top: 70vh;
+  }
+  .home-screen{
+    padding-left: 20px;
+    font-size: 25px;
+  }
+
+  a.glo{
+    margin-left: 20px;
+    width: auto;
+  }
+
+  .logo{
+    flex: auto !important;
+    text-align: center !important;
+    float: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-weight: 600;
+  }
+
+  .nav{
+    padding: 0;
+    position: absolute;
+  }
+
+  .back-3{
+    background-position: 20%;
+  }
+
+  .notebook{
+    background-position: 43%;
+  }
+
+  h5{
+    font-size: 40px;
+  }
+
+  .news-1 p,
+  .news-2 p,
+  .news-3 p{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width:768px)
+{
+  .affix{
+    padding: 0;
+    background-color: #111;
+  }
+
+  .nav{
+    position: fixed;
+    z-index: 999;
+  }
+}
