@@ -162,7 +162,7 @@ p.h6{
 
 @media screen and (max-width:768px){
   .block{
-    height: 200vh;
+    height: 1400px;
   }
 
   .block-map, .block-news{
@@ -201,6 +201,7 @@ p.h6{
   }
 
   .notebook{
+    height: 700px;
     background-position: 43%;
   }
 
@@ -216,6 +217,14 @@ p.h6{
 
   p.h6{
     font-size: 22px;
+  }
+
+  .map,
+  .news,
+  .news-1,
+  .news-2,
+  .news-3{
+    height: 525px;
   }
 }
 
