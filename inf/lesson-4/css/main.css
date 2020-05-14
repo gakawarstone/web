@@ -1,0 +1,25 @@
+.full-screen{
+  width: 100%;
+  height: 100vh;
+  background-position: center top;
+  background-size:cover;
+}
+
+.cl-green{
+  background-color: greenyellow;
+}
+
+.cl-yellow{
+  background-color: yellow;
+}
+
+.picture{
+  width: 100%;
+  height: 80vh;
+  background-position: center top;
+  background-size:cover;
+}
+
+body{
+  text-align: center;
+}

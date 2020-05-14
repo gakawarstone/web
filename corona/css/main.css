@@ -240,3 +240,33 @@ p.h6{
     z-index: 999;
   }
 }
+
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+  height: 100px;
+  width: 100px;
+	overflow:hidden;
+	border:none;
+	text-indent:100%;
+	background:url(../source/img/top.png) no-repeat;
+}
+
+#toTopHover {
+	background:url(../source/img/top.png) no-repeat;
+  height: 100px;
+  width: 100px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=50);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}
