@@ -1,11 +1,19 @@
-.html{
+html{
   scroll-behavior: smooth;
 }
 
-.one{
-  background-color: antiquewhite;
+body{
+
 }
 
-.two{
-  background-color: wheat;
+.logo{
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+    background-image: url(../source/img/logo-white.xcf);
+}
+
+.top{
+  height: 200px;
 }
