@@ -6,3 +6,9 @@ html{
   height: 2000px;
   width: auto;
 }
+
+.old img{
+  width: auto;
+  height: 100vh;
+  align: left;
+}
