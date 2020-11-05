@@ -1,11 +1,16 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 footer {
-    padding: 60px 0;
+    padding: 60px -10px;
 }
 
 #footer {
     background: white;
 }
+
+#footer p{
+  font-size: 36px;
+}
+
 #footer h5{
     border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
