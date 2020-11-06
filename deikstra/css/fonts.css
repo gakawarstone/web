@@ -18,3 +18,10 @@ src: url("../fonts/imperial.ttf") format("truetype");
 font-style: normal;
 font-weight: normal;
 }
+
+@font-face {
+font-family: "flow ext";
+src: url("../fonts/flow.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
