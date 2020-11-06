@@ -21,7 +21,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   function checkWidth() {
     var windowWidth = $('body').innerWidth(),
-        elem = $(".block-1"); // лучше сохранять объект в переменную, многократно чтобы не насиловать
+        elem = $(".old"); // лучше сохранять объект в переменную, многократно чтобы не насиловать
                                     // страницу для поиска нужного элемента
     if(windowWidth < 768){
       elem.addClass('order-first');
