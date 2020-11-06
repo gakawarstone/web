@@ -16,6 +16,12 @@ html{
   height: 80vh;
 }
 
+.algoritm img{
+  height: 45vh;
+  width: auto;
+  margin-top: 120px;
+  margin-left: 20px;
+}
 
 .title{
   font-size: 65px;
@@ -31,6 +37,18 @@ html{
   font-size: 33px;
   font-family: "flow ext";
   padding-top: 50px;
+}
+
+.al-title{
+  padding-top: 0;
+}
+
+.text-block-2{
+  font-size: 33px;
+  font-family: "flow ext";
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .quote{
@@ -77,8 +95,27 @@ html{
     padding-top: 20px;
   }
 
+  .algoritm img{
+    width: 90vw;
+    height: auto;
+    margin-top: 0;
+    padding-top: 10px;
+    margin-left: 0;
+  }
+
   .text-block-1{
     font-size: 22px;
     padding-top: 10px;
+  }
+
+  .text-block-2{
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: left;
+    padding-bottom: 20px;
+  }
+
+  .al-title{
+    font-size: 42px;
   }
 }
