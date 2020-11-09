@@ -1,8 +1,8 @@
 $(document).ready(function() {
   function checkWidth() {
     var windowWidth = $('body').innerWidth(),
-        elem = $(".socreq"); // лучше сохранять объект в переменную, многократно чтобы не насиловать
-                                    // страницу для поиска нужного элемента
+        elem = $(".socreq");
+
     if(windowWidth < 768){
       elem.addClass('order-first');
     }
@@ -11,18 +11,18 @@ $(document).ready(function() {
     }
   }
 
-  checkWidth(); // проверит при загрузке страницы
+  checkWidth();
 
   $(window).resize(function(){
-    checkWidth(); // проверит при изменении размера окна клиента
+    checkWidth();
   });
 });
 
 $(document).ready(function() {
   function checkWidth() {
     var windowWidth = $('body').innerWidth(),
-        elem = $(".old"); // лучше сохранять объект в переменную, многократно чтобы не насиловать
-                                    // страницу для поиска нужного элемента
+        elem = $(".old");
+
     if(windowWidth < 768){
       elem.addClass('order-first');
     }
@@ -31,18 +31,18 @@ $(document).ready(function() {
     }
   }
 
-  checkWidth(); // проверит при загрузке страницы
+  checkWidth();
 
   $(window).resize(function(){
-    checkWidth(); // проверит при изменении размера окна клиента
+    checkWidth();
   });
 });
 
 $(document).ready(function() {
   function checkWidth() {
     var windowWidth = $('body').innerWidth(),
-        elem = $(".young"); // лучше сохранять объект в переменную, многократно чтобы не насиловать
-                                    // страницу для поиска нужного элемента
+        elem = $(".young");
+                                    
     if(windowWidth < 768){
       elem.addClass('order-first');
     }
@@ -51,9 +51,9 @@ $(document).ready(function() {
     }
   }
 
-  checkWidth(); // проверит при загрузке страницы
+  checkWidth();
 
   $(window).resize(function(){
-    checkWidth(); // проверит при изменении размера окна клиента
+    checkWidth();
   });
 });
