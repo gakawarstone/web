@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GKerly</title>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/easing.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <nav class="nav affix">
+    <div class="container-fluid">
+      <div class="logo">
+        <a href="#">GKerly-contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <form class="needs-validation modal-text my-form">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group arrea">
+                <textarea class="form-control modal-text" id="message-text" placeholder="Сообщение..."></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="form-group">
+                <input type="email" class="form-control modal-text" id="recipient-name" placeholder="name@example.com">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <a href="" class="button">Отправить</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-12 top"></div>
+    </div>
+  </div>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-8 col-sm-12 col-md-8 text-center shadow-lite">
+          <p>©2020 all rights reserved.<a class="text-green ml-2" href="" target="_blank">Gakawarstone</a></p>
+        </div>
+        <hr>
+        <div class="col-xs-4 col-sm-12 col-md-4 socreq shadow-lite">
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item"><a href="#"><i class="fa fa-vk"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fa fa-telegram"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fa fa-github"></i></a></li>
+            <li class="list-inline-item"><a data-toggle="modal" data-target="#contact-email" class="pointer"><i class="fa fa-envelope"></i></a></li>
+          </ul>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

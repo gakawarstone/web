@@ -1,0 +1,86 @@
+html{
+  scroll-behavior: smooth;
+}
+
+html, body{
+  background: #FFFFFF;
+}
+
+.top{
+  height: 20px;
+}
+
+.affix{
+  padding: 0;
+  background-color: #000000;
+}
+
+.logo a{
+  text-align: center;
+  display: inline-block;
+  padding-left: 580px;
+}
+
+.button{
+  background-color: #000000;
+  border-radius: 20px;
+  height: 70px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 50px;
+  font-family: "flow";
+  text-align: center;
+  width: 80%;
+  line-height: 70px;
+  position: relative;
+  display: block;
+}
+
+.button:hover{
+  text-decoration: none;
+  color: #F4F6B5;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+#busket{
+  z-index: 9999;
+}
+
+.modal-title{
+  background: black;
+  color: white;
+  text-align: center;
+  flex: auto;
+}
+
+.modal-text, .modal-bottom{
+  font-size: 40px;
+  font-family: "flow";
+}
+
+.modal-title{
+  font-family: "rosvigts";
+  font-size: 50px;
+}
+
+.modal-bottom{
+  background-color: black;
+  color: white;
+}
+
+.modal-bottom a{
+  padding-right: 10px;
+}
+
+.my-form{
+  padding-top: 80px;
+  border-radius: 20px;
+}
+
+.arrea{
+  width: 94%;
+  height: 472px;
+}
