@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
+    font-family: "rosvigts";
     font-size: 62.5%;
     font-size: 10px;
 }
@@ -28,11 +28,11 @@ body {
 .nav div.logo a {
     text-decoration: none;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 .nav div.logo a:hover {
-    color: #00E676;
+    color: #F4F6B5;
 }
 
 .nav div.main_list {
@@ -60,11 +60,11 @@ body {
     text-decoration: none;
     color: #fff;
     line-height: 65px;
-    font-size: 2.4rem;
+    font-size: 4rem;
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #F4F6B5;
 }
 
 
@@ -419,7 +419,7 @@ body, html{
 {
   .affix{
     padding: 0;
-    background-color: #111;
+    background-color: #000000;
   }
 
   .nav{
