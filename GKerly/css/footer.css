@@ -11,7 +11,13 @@ footer {
 
 #footer p{
   font-size: 36px;
-  color:#f4f6b5;
+  color:#ffffff;
+}
+
+
+#footer p a:hover{
+  font-size: 36px;
+  color: #f4f6b5;
 }
 
 @media screen and (max-width:768px){
@@ -24,10 +30,10 @@ footer {
     border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
     margin-bottom: 20px;
-    color:#f4f6b5;
+    color:#ffffff;
 }
 #footer a {
-    color: #f4f6b5;
+    color: #ffffff;
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
