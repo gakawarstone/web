@@ -85,3 +85,37 @@ html, body{
   text-decoration: none;
   color: #F4F6B5;
 }
+
+.pointer{
+  cursor: pointer;
+}
+
+#busket{
+  z-index: 9999;
+}
+
+.modal-title{
+  background: black;
+  color: white;
+  text-align: center;
+  flex: auto;
+}
+
+.modal-text, .modal-bottom{
+  font-size: 40px;
+  font-family: "flow";
+}
+
+.modal-title{
+  font-family: "rosvigts";
+  font-size: 50px;
+}
+
+.modal-bottom{
+  background-color: black;
+  color: white;
+}
+
+.modal-bottom a{
+  padding-right: 10px;
+}
