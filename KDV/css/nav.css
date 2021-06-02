@@ -13,8 +13,7 @@ body {
     float: left;
     width: auto;
     height: auto;
-    padding-left: 3rem;
-    background-image: url(../source/img/logo-white.xcf);
+    font-family: "rais";
 }
 
 .nav {
@@ -29,6 +28,7 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 4rem;
+    background: red;
 }
 
 .nav div.logo a:hover {
