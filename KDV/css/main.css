@@ -28,7 +28,7 @@ body{
 
 .title{
   font-size: 75px;
-  font-family: "rosvigts";
+  font-family: "lobster";
   color: #000000;
   text-align: center;
   padding-top: 50px;
@@ -41,25 +41,24 @@ body{
   border-radius: 20px;
 }
 
-.rect-black{
+.rect-black-border{
   width: 400px;
   height: 500px;
-  background: #000000;
-  border-radius: 20px;
+  background: #FBE2C3;
+  border-radius: 10px;
   margin-left: 150px;
   margin-top: 30px;
   padding-top: 20px;
   padding-left: 20px;
+  border-width: 12px;
+  border-style: solid;
+  border-color: black;
 }
 
-.ring{
-  margin-left: 40px;
-  margin-top: 20px;
-}
-
-.ring img{
-  width: 300px;
+.cake img{
+  width: 356px;
   height: auto;
+  padding-top: 28%;
 }
 
 .ring-text{
@@ -72,17 +71,18 @@ body{
   padding-right: 50px;
   padding-top: 30px;
   font-size: 35px;
-  font-family: "flow";
+  color: #000000;
+  font-family: "impact";
 }
 
 .button{
   background-color: #000000;
-  border-radius: 40px;
+  border-radius: 10px;
   height: 80px;
   text-decoration: none;
   color: #FFFFFF;
-  font-size: 65px;
-  font-family: "flow";
+  font-size: 50px;
+  font-family: "impact";
   text-align: center;
   width: 500px;
   margin-top: 100px;
@@ -98,14 +98,15 @@ body{
 }
 
 .mission a{
-  margin-top: 50px;
-}
-
-.woman{
-  margin-left: 20px;
+  margin-top: 105px;
 }
 
 .woman img{
-  width: 300px;
+  width: 470px;
+  margin-left: -20%;
   height: auto;
+}
+
+.product {
+  margin-top: 5px;
 }
