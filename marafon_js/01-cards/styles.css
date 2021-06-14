@@ -53,3 +53,28 @@ body {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
+
+.active-slide-mint {
+  background-color: #8eba3f;
+  transition: all 1.5s ease 0.6s;
+}
+
+.active-slide-ubuntu {
+  background-color: #320821;
+  transition: all 1.5s ease 0.6s;
+}
+
+.active-slide-manjaro {
+  background-color: #539e42;
+  transition: all 1.5s ease 0.6s;
+}
+
+.active-slide-fedora {
+  background-color: #418db4;
+  transition: all 1.5s ease 0.6s;
+}
+
+.active-slide-arch {
+  background-color: #0b132c;
+  transition: all 1.5s ease 0.6s;
+}
