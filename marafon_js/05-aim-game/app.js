@@ -39,15 +39,25 @@ function decreaseTime() {
     finishGame()
   } else {
     let current = --time
-    if (current < 10) {
-      current = `0${current}`
-    }
     setTime(current)
   }
 }
 
 function setTime(value) {
-  timeEL.innerHTML = `00:${value}`
+  let minutes = '00'
+  let seconds = '00'
+  if ((value / 60) < 10) {
+    minutes = `0${(value - value % 60) / 60}`
+  } else {
+    minutes = `${(value - value % 60) / 60}`
+  }
+  if ((value % 60) < 10) {
+    seconds = `0${value % 60}`
+  } else {
+    seconds = `${value % 60}`
+  }
+  console.log(`${minutes}:${seconds}`)
+  timeEL.innerHTML = `${minutes}:${seconds}`
 }
 
 function finishGame() {
