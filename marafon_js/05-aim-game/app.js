@@ -56,7 +56,6 @@ function setTime(value) {
   } else {
     seconds = `${value % 60}`
   }
-  console.log(`${minutes}:${seconds}`)
   timeEL.innerHTML = `${minutes}:${seconds}`
 }
 

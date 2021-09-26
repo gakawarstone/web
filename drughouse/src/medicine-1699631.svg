@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="a">
+   <feBlend in2="BackgroundImage" mode="lighten"/>
+  </filter>
+  <filter id="b" color-interpolation-filters="sRGB">
+   <feBlend in2="BackgroundImage" mode="lighten"/>
+  </filter>
+ </defs>
+ <rect width="500" height="500" fill-opacity="0"/>
+ <g filter="url(#a)">
+  <rect x="116.25" y="134.51" width="234.47" height="251.13" ry="23.928" color="#000000" enable-background="accumulate" fill="#e5e5ca"/>
+  <rect x="116.25" y="185.06" width="234.47" height="97.595" ry="0" color="#000000" enable-background="accumulate" fill="#f6f6ee"/>
+  <path d="m225.52 205.49v20.398h-20.398v15.937h20.398v20.398h15.937v-20.398h20.398v-15.937h-20.398v-20.398h-15.937z" color="#000000" enable-background="accumulate" fill="#ff0101"/>
+  <path d="m176.51 84.346v50.162c0 3.2455 25.508 5.884 56.977 5.884s56.977-2.6384 56.977-5.884v-50.162h-113.95z" color="#000000" enable-background="accumulate" fill="#cdcdbd"/>
+  <ellipse cx="233.49" cy="84.364" rx="56.98" ry="5.8765" color="#000000" enable-background="accumulate" fill="#ecece6"/>
+  <rect x="116.25" y="329.92" width="234.47" height="22.723" ry="0" color="#000000" enable-background="accumulate" fill="#999978"/>
+  <g transform="matrix(.012155 .78202 -.78202 .012155 191.67 315.59)">
+   <path d="m92.375 131.47c-9.6828 0-17.469 7.786-17.469 17.469v22.844h34.969v-22.844c0-9.6828-7.8172-17.469-17.5-17.469z" color="#000000" enable-background="accumulate" fill="#787899"/>
+   <path d="m74.906 171.78v22.844c0 9.6828 7.786 17.5 17.469 17.5 9.6828 0 17.5-7.8172 17.5-17.5v-22.844h-34.969z" fill="#e8e829"/>
+  </g>
+  <g transform="matrix(-.34289 .70294 -.70294 -.34289 606.18 355.12)" filter="url(#a)">
+   <path d="m92.375 131.47c-9.6828 0-17.469 7.786-17.469 17.469v22.844h34.969v-22.844c0-9.6828-7.8172-17.469-17.5-17.469z" color="#000000" enable-background="accumulate" fill="#787899"/>
+   <path d="m74.906 171.78v22.844c0 9.6828 7.786 17.5 17.469 17.5 9.6828 0 17.5-7.8172 17.5-17.5v-22.844h-34.969z" fill="#e8e829"/>
+  </g>
+  <path transform="matrix(.25417 1.0233 -1.0233 .25417 536.01 259.23)" d="m92.375 131.47c-9.6828 0-17.469 7.786-17.469 17.469v22.844h34.969v-22.844c0-9.6828-7.8172-17.469-17.5-17.469z" color="#000000" enable-background="accumulate" fill="#787899" filter="url(#a)"/>
+  <path transform="matrix(.25417 1.0233 -1.0233 .25417 536.01 259.23)" d="m74.906 171.78v22.844c0 9.6828 7.786 17.5 17.469 17.5 9.6828 0 17.5-7.8172 17.5-17.5v-22.844h-34.969z" fill="#e8e829" filter="url(#a)"/>
+  <g transform="matrix(-.28425 -.60553 .60553 -.28425 -6.6747 453.74)" filter="url(#b)">
+   <path d="m92.375 131.47c-9.6828 0-17.469 7.786-17.469 17.469v22.844h34.969v-22.844c0-9.6828-7.8172-17.469-17.5-17.469z" color="#000000" enable-background="accumulate" fill="#787899"/>
+   <path d="m74.906 171.78v22.844c0 9.6828 7.786 17.5 17.469 17.5 9.6828 0 17.5-7.8172 17.5-17.5v-22.844h-34.969z" fill="#e8e829"/>
+  </g>
+ </g>
+</svg>

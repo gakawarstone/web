@@ -1,0 +1,48 @@
+@font-face {
+font-family: "rozovii";
+src: url("../fonts/rozovii.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "rosvigts";
+src: url("../fonts/rosvigts.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "imperial";
+src: url("../fonts/imperial.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "flow ext";
+src: url("../fonts/flow.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "rais";
+src: url("../fonts/rais.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "lobster";
+src: url("../fonts/lobster.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "impact";
+src: url("../fonts/impact.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
