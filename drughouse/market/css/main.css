@@ -1,0 +1,121 @@
+html{
+  scroll-behavior: smooth;
+}
+
+html, body{
+  background: #FFFFFF;
+}
+
+.top{
+  height: 50px;
+}
+
+.affix{
+  padding: 0;
+  background-color: #320009;
+}
+
+.sort{
+    height: 65px;
+    float: left;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+.sort{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    font-size: 40px;
+    font-family: "flow"
+}
+
+.sort li {
+    width: auto;
+    height: 65px;
+    margin: -0.5rem;
+    padding-right: 10rem;
+}
+
+.sort li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 4rem;
+}
+
+.sort-active{
+  color: #BB2222;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #F4F6B5;
+}
+
+.rect{
+  width: 300px;
+  height: 400px;
+  background: #720039;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-left: 20px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25),
+               -1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button{
+  background-color: #720039;
+  border-radius: 15px;
+  height: 80px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 65px;
+  font-family: "flow";
+  text-align: center;
+  width: 100%;
+  padding-bottom: 10px;
+  line-height: 80px;
+  position: relative;
+  display: block;
+  margin-top: 50px;
+}
+
+.button:hover{
+  text-decoration: none;
+  color: #F4F6B5;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+#busket{
+  z-index: 9999;
+}
+
+.modal-title{
+  background: #720039;
+  color: white;
+  text-align: center;
+  flex: auto;
+}
+
+.modal-text, .modal-bottom{
+  font-size: 40px;
+  font-family: "flow";
+}
+
+.modal-title{
+  font-family: "rosvigts";
+  font-size: 50px;
+}
+
+.modal-bottom{
+  background-color: #720039;
+  color: white;
+}
+
+.modal-bottom a{
+  padding-right: 10px;
+}
