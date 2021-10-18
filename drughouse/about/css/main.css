@@ -12,13 +12,13 @@ html, body{
 
 .affix{
   padding: 0;
-  background-color: #000000;
+  background-color: #320009;
 }
 
 .logo a{
   text-align: center;
   display: inline-block;
-  padding-left: 580px;
+  padding-left: 640px;
 }
 
 h1{
