@@ -12,7 +12,7 @@ html, body{
 
 .affix{
   padding: 0;
-  background-color: #000000;
+  background-color: #320009;
 }
 
 .logo a{
@@ -22,8 +22,8 @@ html, body{
 }
 
 .button{
-  background-color: #000000;
-  border-radius: 20px;
+  background-color: #320009;
+  border-radius: 15px;
   height: 70px;
   text-decoration: none;
   color: #FFFFFF;
@@ -34,11 +34,14 @@ html, body{
   line-height: 70px;
   position: relative;
   display: block;
+  transition: all 500ms ease-in-out;
 }
 
 .button:hover{
   text-decoration: none;
   color: #F4F6B5;
+  background-color: #720039;
+  transition: all 500ms ease-in-out;
 }
 
 .pointer{
@@ -76,7 +79,7 @@ html, body{
 }
 
 .my-form{
-  padding-top: 80px;
+  padding-top: 82px;
   border-radius: 20px;
 }
 

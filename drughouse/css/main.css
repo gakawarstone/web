@@ -43,6 +43,13 @@ body{
   margin-top: 30px;
   padding-top: 20px;
   padding-left: 20px;
+  transition: all 2000ms ease-in-out;
+}
+
+.rect-purple:hover {
+  border-radius: 15px;
+  background: #320009;
+  transition: all 2000ms ease-in-out;
 }
 
 .rect-black-border{
@@ -94,11 +101,15 @@ body{
   line-height: 200px;
   position: relative;
   display: block;
+  transition: all 2000ms ease-in-out;
 }
 
 .button:hover{
   text-decoration: none;
   color: #F2DEDE;
+  border-radius: 15px;
+  background: #320009;
+  transition: all 2000ms ease-in-out;
 }
 
 .mission {
