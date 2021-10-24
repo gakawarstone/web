@@ -13,7 +13,7 @@ body{
 .back-top{
   width: 100%;
   height: 100vh;
-  background-image: url(../src/back-top.png);
+  background-image: url(../src/back-top.gif);
   background-position: center center;
   background-size: cover;
 }
