@@ -25,10 +25,33 @@ body {
 }
 
 
+.navlinks li a {
+    background-color: #720039;
+    border-radius: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navlinks li {
+    padding-top: .5rem;
+}
+
+.navlinks:hover li a {
+    background-color: #320039;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
+}
+
 .nav div.logo a {
     text-decoration: none;
     color: #fff;
+    font-family: "flow ext";
     font-size: 4rem;
+    text-align: center;
+    background-color: #720039;
+    border-radius: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .nav div.logo a:hover {

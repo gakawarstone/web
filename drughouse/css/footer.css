@@ -17,7 +17,8 @@ footer {
 
 
 #footer p a:hover{
-  font-size: 36px;
+  color: #320009;
+  /*transition: 2s all ease-in-out;*/
 }
 
 @media screen and (max-width:768px){
@@ -42,13 +43,14 @@ footer {
 	padding: 3px 0;
 }
 #footer ul.social li a i {
-  margin-right: 5px;
+    margin-right: 5px;
 	font-size:45px;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
+	-webkit-transition: 2s all ease;
+	-moz-transition: 2s all ease;
+	transition: 2s all ease;
 }
 #footer ul.social li:hover a i {
+    color: #320009;
 	font-size:50px;
 	margin-top:-50px;
 	margin-bottom:-50px;
