@@ -3,21 +3,23 @@ footer {
     padding: 60px -10px;
     padding-top: 20px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-family: "impact";
 }
 
 #footer {
-    background: #320009;
+    background: #F2DEDE;
 }
 
 #footer p{
   font-size: 36px;
-  color:#ffffff;
+  font-family: "impact";
+  color: #720039;
 }
 
 
 #footer p a:hover{
-  font-size: 36px;
-  color: #f4f6b5;
+  color: #320009;
+  /*transition: 2s all ease-in-out;*/
 }
 
 @media screen and (max-width:768px){
@@ -30,10 +32,10 @@ footer {
     border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
     margin-bottom: 20px;
-    color:#ffffff;
+    color: #720039;
 }
 #footer a {
-    color: #ffffff;
+    color: #720039;
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -42,15 +44,15 @@ footer {
 	padding: 3px 0;
 }
 #footer ul.social li a i {
-  margin-right: 5px;
+    margin-right: 5px;
 	font-size:45px;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
+	-webkit-transition: 2s all ease;
+	-moz-transition: 2s all ease;
+	transition: 2s all ease;
 }
 #footer ul.social li:hover a i {
+    color: #320009;
 	font-size:50px;
-  color: #f4f6b5;
 	margin-top:-50px;
 	margin-bottom:-50px;
 }

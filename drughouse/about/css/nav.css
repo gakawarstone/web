@@ -13,7 +13,6 @@ body {
     float: left;
     width: auto;
     height: auto;
-    padding-left: 3rem;
     background-image: url(../source/img/logo-white.xcf);
 }
 
@@ -25,10 +24,38 @@ body {
 }
 
 
+.navlinks li a {
+    background-color: #720039;
+    border-radius: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+.navlinks li {
+    padding-top: .5rem;
+}
+
+.navlinks:hover li a {
+    background-color: #320039;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
+}
+
 .nav div.logo a {
     text-decoration: none;
     color: #fff;
+    font-family: "flow ext";
     font-size: 4rem;
+    background-color: #720039;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+}
+
+.logo {
+  width: 100%;
 }
 
 .nav div.logo a:hover {
