@@ -25,7 +25,7 @@
   <nav class="nav affix">
     <div class="container-fluid">
       <div class="logo">
-        <a href="#">Market</a>
+        <a href="#" class="checkout">Market</a>
       </div>
       <div id="mainListDiv" class="main_list">
         <ul class="navlinks">
@@ -61,7 +61,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-3">
-        <div class="rect">
+        <div class="rect item_box">
             <img src="src/altay.jpg" alt="">
             <div class="container-fluid">
                 <div class="row">
@@ -69,7 +69,7 @@
                         <p>Цена: 2000 тнг</p>
                     </div>
                     <div class="col-md-3">
-                        <span>+</span>
+                        <span class="add_item" data-id="1" price="2000" title="Иван Чай">+</span>
                     </div>
                 </div>
             </div>
@@ -320,7 +320,6 @@
     </div>
   </div>
   -->
-
   <div class="top-50"></div>
 
   <footer id="footer">
@@ -358,16 +357,18 @@
             </div>
             <div class="form-group">
               <label for="message-text" class="col-form-label">Описание заказа:</label>
-              <textarea class="form-control modal-text" id="message-text"></textarea>
+              <div id="cart_content"></div>
+              <textarea class="form-control modal-text"></textarea>
             </div>
           </form>
         </div>
         <div class="modal-footer modal-bottom">
-          <a type="submit" class="glo-mini">Отправить</a>
-          <a data-dismiss="modal" class="glo-mini">Закрыть</a>
+          <a type="submit" class="glo-mini" id="checkout">Отправить</a>
+          <a data-dismiss="modal" class="glo-mini" id="clear_cart">Закрыть</a>
         </div>
       </div>
     </div>
   </div>
 </body>
+<script src="js/busket.js"></script>
 </html>

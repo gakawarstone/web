@@ -6,6 +6,24 @@ body, html{
   background: #F2DEDE;
 }
 
+#cart_content {
+  font-size: .7em;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.shopping_list {
+	width: 100%;
+  margin-top: 10px;
+	border-collapse: collapse;
+}
+
+.shopping_list td,
+.shopping_list th {
+	padding: 10px;
+	border: 1px solid #AAAAAA;
+}
+
 @keyframes show {
   0%{
     height: 200px;
