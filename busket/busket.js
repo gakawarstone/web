@@ -25,8 +25,8 @@ function addToCart(e){
 	var cartData = getCartData() || {}, // получаем данные корзины или создаём новый объект, если данных еще нет
 			parentBox = this.parentNode, // родительский элемент кнопки &quot;Добавить в корзину&quot;
 			itemId = this.getAttribute('data-id'), // ID товара
-			itemTitle = parentBox.querySelector('.item_title').innerHTML, // название товара
-			itemPrice = parentBox.querySelector('.item_price').innerHTML; // стоимость товара
+			itemTitle = this.getAttribute('title'), // название товара
+			itemPrice = this.getAttribute('price'); // стоимость товара
 	if(cartData.hasOwnProperty(itemId)){ // если такой товар уже в корзине, то добавляем +1 к его количеству
 		cartData[itemId][2] += 1;
 	} else { // если товара в корзине еще нет, то добавляем в объект
